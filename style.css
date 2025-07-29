@@ -1,0 +1,39 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+
+    /* Flexbox para centralizar em coluna */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* verticalmente */
+    align-items: center;     /* horizontalmente */
+
+    height: 100vh;  /* ocupar toda a altura da tela */
+    text-align: center;
+
+    padding: 20px;
+}
+
+/* Título */
+h1 {
+    color: darkblue;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Textos */
+div {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    max-width: 600px; /* limitar largura para facilitar leitura */
+}
